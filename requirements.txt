@@ -1,0 +1,20 @@
+# 基础科学计算与可视化
+numpy
+pandas
+matplotlib
+seaborn
+
+# 经典机器学习
+scikit-learn
+
+# 交互式开发环境
+jupyter
+jupyterlab
+ipykernel
+
+# 数据集加载(Hugging Face)
+datasets
+
+# ---- 深度学习(建议用官方命令安装,这里注释掉避免平台/版本冲突) ----
+# torch
+# torchvision
