@@ -4,19 +4,32 @@
 
 ## 目录结构
 
-| 目录 | 内容 |
-|---|---|
-| `00_basics/` | Python / NumPy / Pandas / Matplotlib 基础练习 |
-| `01_linear_models/` | 线性回归、逻辑回归、梯度下降(手写实现) |
-| `02_classic_ml/` | 决策树、随机森林、SVM、KNN、朴素贝叶斯、聚类、降维 |
-| `03_neural_network/` | 手写神经网络、反向传播 |
-| `04_pytorch/` | PyTorch 入门、CNN、RNN/LSTM、Transformer |
-| `05_projects/` | 完整项目 / Kaggle 比赛 |
-| `datasets/` | 所有数据集统一存放 |
-| `notes/` | 学习笔记、读书笔记 |
-| `utils/` | 复用的工具函数(画图、评估指标等) |
+| 目录 | 内容 | 状态 |
+|---|---|---|
+| `00_basics/` | Python 基础 + NumPy / Pandas / Matplotlib | 🔄 进行中 |
+| `01_linear_models/` | 线性回归、逻辑回归、梯度下降(手写实现) | ⬜ 待开始 |
+| `02_classic_ml/` | 决策树、随机森林、SVM、KNN、聚类、降维 | ⬜ 待开始 |
+| `03_neural_network/` | 手写神经网络、反向传播 | ⬜ 待开始 |
+| `04_pytorch/` | PyTorch 入门、CNN、RNN/LSTM、Transformer | ⬜ 待开始 |
+| `05_projects/` | 完整项目 / Kaggle 比赛 | ⬜ 待开始 |
+| `datasets/` | 所有数据集统一存放 | — |
+| `notes/` | 学习笔记、读书笔记 | — |
+| `utils/` | 复用的工具函数(画图、评估指标等) | — |
 
-## 每个模块的内部结构
+### 基础阶段 `00_basics/` 内部结构
+
+基础阶段用 `0.x_主题.ipynb` 命名,一个 notebook 一个主题:
+
+```
+00_basics/
+├── 0.1_python_basics.ipynb    # Python 基础语法 ✅ 已学完
+├── 0.2_numpy.ipynb            # NumPy 数组运算
+├── 0.3_pandas.ipynb           # Pandas 表格处理
+├── 0.4_matplotlib.ipynb       # Matplotlib 画图
+└── README.md
+```
+
+### 算法模块 `01~05` 的组织方式
 
 每学一个算法,在对应模块下建一个子文件夹,代码 + 笔记 + 心得放一起:
 
@@ -25,12 +38,12 @@
 └── linear_regression/
     ├── linear_regression.py   # 实现代码
     ├── notebook.ipynb         # 实验 / 复现笔记
-    └── README.md              # 结论、踩坑记录、心得
+    └── README.md              # 结论、踩坑、心得
 ```
 
-## 学习路线(代码优先,打勾记录进度)
+## 学习路线(代码优先)
 
-- [ ] 阶段 0 · 工具准备 —— Python、NumPy、Pandas、Matplotlib
+- [x] 阶段 0 · 工具准备 —— Python 基础 ✅,NumPy / Pandas / Matplotlib 🔄
 - [ ] 阶段 1 · 手写核心算法 —— 线性 / 逻辑回归、梯度下降
 - [ ] 阶段 2 · 经典机器学习 —— 决策树、SVM、聚类、降维(sklearn 复现)
 - [ ] 阶段 3 · 深度学习 —— 神经网络、PyTorch、CNN、RNN
@@ -43,6 +56,13 @@
 - **理论**: 李航《统计学习方法》(第 2 版)
 - **课程**: 吴恩达 Machine Learning Specialization(Coursera)、李宏毅《机器学习》(B 站)
 
+## 环境
+
+- Python 3.9,使用 `venv` 虚拟环境(激活:`source .venv/bin/activate`)
+- 依赖见 `requirements.txt`
+
 ## 进度记录
 
-在这里记录每个模块的完成时间和学习心得。
+| 时间 | 完成内容 |
+|---|---|
+| 2026-10-09 | Python 基础语法(变量 / 对象 / 内置函数 / 六大类型 / 文件读写 / 格式化) |
