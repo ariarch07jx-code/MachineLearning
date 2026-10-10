@@ -6,11 +6,10 @@
 
 | 目录 | 内容 | 状态 |
 |---|---|---|
-| `01_python_basics/` | Python 基本语法(变量、流程、函数、类) | 待学 |
+| `01_python_basics/` | Python 基本语法(变量、流程、函数、类) | 已完成 |
 | `02_numpy/` | NumPy 数组 / 矩阵运算(ML 的数学基础) | 进行中 |
 | `03_pandas/` | Pandas 表格数据处理(数据清洗、特征工程) | 待学 |
 
-> `jupyter_demo.ipynb` 是「怎么在 VS Code 里用 Jupyter」的演示,先跑一遍熟悉 notebook 用法。
 
 ## 学习顺序
 
