@@ -6,7 +6,7 @@
 
 | 目录 | 内容 | 状态 |
 |---|---|---|
-| `00_basics/` | Python 基础 + NumPy / Pandas / Matplotlib | 🔄 进行中 |
+| `00_basics/` | Python 基础 + NumPy / Pandas / Matplotlib | ✅ 已完成 |
 | `01_linear_models/` | 线性回归、逻辑回归、梯度下降(手写实现) | ⬜ 待开始 |
 | `02_classic_ml/` | 决策树、随机森林、SVM、KNN、聚类、降维 | ⬜ 待开始 |
 | `03_neural_network/` | 手写神经网络、反向传播 | ⬜ 待开始 |
@@ -22,10 +22,10 @@
 
 ```
 00_basics/
-├── 0.1_python_basics.ipynb    # Python 基础语法 ✅ 已学完
-├── 0.2_numpy.ipynb            # NumPy 数组运算
-├── 0.3_pandas.ipynb           # Pandas 表格处理
-├── 0.4_matplotlib.ipynb       # Matplotlib 画图
+├── 0.1_python_basics.ipynb    # Python 基础语法 ✅
+├── 0.2_numpy.ipynb            # NumPy 数组运算 ✅
+├── 0.3_pandas.ipynb           # Pandas 表格处理 ✅
+├── 0.4_matplotlib.ipynb       # Matplotlib 画图 ✅
 └── README.md
 ```
 
@@ -43,7 +43,7 @@
 
 ## 学习路线(代码优先)
 
-- [x] 阶段 0 · 工具准备 —— Python 基础 ✅,NumPy / Pandas / Matplotlib 🔄
+- [x] 阶段 0 · 工具准备 —— Python 基础、NumPy、Pandas、Matplotlib ✅
 - [ ] 阶段 1 · 手写核心算法 —— 线性 / 逻辑回归、梯度下降
 - [ ] 阶段 2 · 经典机器学习 —— 决策树、SVM、聚类、降维(sklearn 复现)
 - [ ] 阶段 3 · 深度学习 —— 神经网络、PyTorch、CNN、RNN
@@ -66,3 +66,6 @@
 | 时间 | 完成内容 |
 |---|---|
 | 2026-10-09 | Python 基础语法(变量 / 对象 / 内置函数 / 六大类型 / 文件读写 / 格式化) |
+| 2026-10-25 | NumPy(创建 / 索引 / 广播 / 聚合 / 随机数 / 手写 ML 里的式子) |
+| 2026-10-25 | Pandas(读写 / 选取 / 缺失值 / 分组聚合 / 合表 / 对接 sklearn) |
+| 2026-10-25 | Matplotlib(折线 / 散点 / 柱状 / 直方图 / 子图 / 保存 / ML 常见图) |
