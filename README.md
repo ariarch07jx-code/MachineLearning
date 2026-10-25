@@ -1,6 +1,6 @@
 # Machine Learning 学习笔记与代码复现
 
-我的机器学习学习仓库,按主题存放**复现代码、实验笔记和心得**。
+我的机器学习学习仓库,按主题存放复现代码、实验笔记和心得。以代码为主,理论卡住再回头补。
 
 ## 目录结构
 
@@ -12,26 +12,26 @@
 | `03_neural_network/` | 手写神经网络、反向传播 | ⬜ 待开始 |
 | `04_pytorch/` | PyTorch 入门、CNN、RNN/LSTM、Transformer | ⬜ 待开始 |
 | `05_projects/` | 完整项目 / Kaggle 比赛 | ⬜ 待开始 |
-| `datasets/` | 所有数据集统一存放 | — |
-| `notes/` | 学习笔记、读书笔记 | — |
-| `utils/` | 复用的工具函数(画图、评估指标等) | — |
+| `datasets/` | 所有数据集统一存放 | 空 |
+| `utils/` | 复用的工具函数(画图、评估指标等) | 空 |
 
-### 基础阶段 `00_basics/` 内部结构
+### 基础阶段 `00_basics/`
 
-基础阶段用 `0.x_主题.ipynb` 命名,一个 notebook 一个主题:
+用 `0.x_主题.ipynb` 命名,一个 notebook 一个主题:
 
 ```
 00_basics/
-├── 0.1_python_basics.ipynb    # Python 基础语法 ✅
-├── 0.2_numpy.ipynb            # NumPy 数组运算 ✅
-├── 0.3_pandas.ipynb           # Pandas 表格处理 ✅
-├── 0.4_matplotlib.ipynb       # Matplotlib 画图 ✅
+├── 0.1_python_basics.ipynb    # Python 基础语法
+├── 0.2_numpy.ipynb            # NumPy 数组运算
+├── 0.3_pandas.ipynb           # Pandas 表格处理
+├── 0.4_matplotlib.ipynb       # Matplotlib 画图
+├── sine_demo.png              # 0.4 里保存图片那节的输出
 └── README.md
 ```
 
-### 算法模块 `01~05` 的组织方式
+### 算法模块 `01~05`
 
-每学一个算法,在对应模块下建一个子文件夹,代码 + 笔记 + 心得放一起:
+每学一个算法,在对应模块下建一个子文件夹,代码和笔记放一起:
 
 ```
 01_linear_models/
@@ -41,31 +41,30 @@
     └── README.md              # 结论、踩坑、心得
 ```
 
-## 学习路线(代码优先)
+## 学习路线
 
-- [x] 阶段 0 · 工具准备 —— Python 基础、NumPy、Pandas、Matplotlib ✅
-- [ ] 阶段 1 · 手写核心算法 —— 线性 / 逻辑回归、梯度下降
-- [ ] 阶段 2 · 经典机器学习 —— 决策树、SVM、聚类、降维(sklearn 复现)
-- [ ] 阶段 3 · 深度学习 —— 神经网络、PyTorch、CNN、RNN
-- [ ] 阶段 4 · 项目实战 —— 完整 pipeline 项目 / 比赛
+- [x] 阶段 0 · 工具准备:Python 基础、NumPy、Pandas、Matplotlib
+- [ ] 阶段 1 · 手写核心算法:线性 / 逻辑回归、梯度下降
+- [ ] 阶段 2 · 经典机器学习:决策树、SVM、聚类、降维(sklearn 复现)
+- [ ] 阶段 3 · 深度学习:神经网络、PyTorch、CNN、RNN
+- [ ] 阶段 4 · 项目实战:完整 pipeline 项目 / 比赛
 
 ## 学习资源
 
-- **主线(代码优先)**: 李沐《动手学深度学习》 https://d2l.ai
-- **理论**: 周志华《机器学习》(西瓜书)+ 南瓜书《机器学习公式详解》
-- **理论**: 李航《统计学习方法》(第 2 版)
-- **课程**: 吴恩达 Machine Learning Specialization(Coursera)、李宏毅《机器学习》(B 站)
+- 主线(代码优先): 李沐《动手学深度学习》 https://d2l.ai
+- 理论: 周志华《机器学习》(西瓜书)+ 南瓜书《机器学习公式详解》
+- 理论: 李航《统计学习方法》(第 2 版)
+- 课程: 吴恩达 Machine Learning Specialization(Coursera)、李宏毅《机器学习》(B 站)
 
 ## 环境
 
-- Python 3.9,使用 `venv` 虚拟环境(激活:`source .venv/bin/activate`)
+- Python 3.9,venv 虚拟环境,激活:`source .venv/bin/activate`
 - 依赖见 `requirements.txt`
+- 跑 notebook:激活环境后 `jupyter lab`,打开 `00_basics/` 下对应文件,内核选 `.venv`
 
 ## 进度记录
 
 | 时间 | 完成内容 |
 |---|---|
 | 2026-10-09 | Python 基础语法(变量 / 对象 / 内置函数 / 六大类型 / 文件读写 / 格式化) |
-| 2026-10-25 | NumPy(创建 / 索引 / 广播 / 聚合 / 随机数 / 手写 ML 里的式子) |
-| 2026-10-25 | Pandas(读写 / 选取 / 缺失值 / 分组聚合 / 合表 / 对接 sklearn) |
-| 2026-10-25 | Matplotlib(折线 / 散点 / 柱状 / 直方图 / 子图 / 保存 / ML 常见图) |
+| 2026-10-25 | NumPy、Pandas、Matplotlib 三个 notebook(数组运算 / 表格处理 / 画图) |
